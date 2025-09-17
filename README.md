@@ -1,2 +1,3 @@
 # Machine-Learning-Playground
-Where I test some of the project based on knowledge I learn from Machine Learning, Deep Learning
+
+This is for number classify using MNIST database with more than 70000 datasets using python with tensorflow.
