@@ -20,28 +20,29 @@ The project follows these main steps:
 
 1. **Load & Preprocess Data**
 
-  - Load the MNIST dataset
-  - Preprocess data to fit model requirements
+- Load the MNIST dataset
+- Preprocess data to fit model requirements
 
 2. **Build Model**
 
-  - Choose model type (DNN or CNN)
-  - Add appropriate layers and activation functions
+- Choose model type (DNN or CNN)
+- Add appropriate layers and activation functions
 
 3. **Compile Model**
 
-  - Specify optimizer (e.g., Adam, SGD)
-  - Choose loss function (e.g., categorical crossentropy)
-  - Set evaluation metrics (e.g., accuracy)
+- Specify optimizer (e.g., Adam, SGD)
+- Choose loss function (e.g., categorical crossentropy)
+- Set evaluation metrics (e.g., accuracy)
 
 4. **Train Model**
 
-  - Fit the model on training data
-  - Validate on test or validation set
+- Fit the model on training data
+- Validate on test or validation set
 
 5. **Save & Load Model**
-  - Save trained models to disk
-  - Load saved models for inference without retraining
+
+- Save trained models to disk
+- Load saved models for inference without retraining
 
 ---
 
@@ -59,3 +60,13 @@ Install dependencies using:
 python -m venv venv
 pip install requirement.txt
 ```
+
+And run the notebook locally to understand more
+
+---
+
+## Testing
+
+You can swap the model in testing.ipynb notebook to try the model you want, but there shouldn't be much difference between model as they are all around 95% and above accuracy
+
+Note: use ver4 for DNN for better real-world prediction as previous ver is target-leaked.
