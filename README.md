@@ -53,7 +53,7 @@ The project follows these main steps:
 - NumPy
 - Matplotlib (optional, for visualization)
 - Other python package(in requirement.txt)
-
+- MNIST dataset as .npz extension in data folder(https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz)
 Install dependencies using:
 
 ```bash
